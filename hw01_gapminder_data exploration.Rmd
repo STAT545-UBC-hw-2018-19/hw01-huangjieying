@@ -1,8 +1,8 @@
 ---
 title: "hw01_gapminder data exploration"
-output: 
-md_document:
-    variant: markdown_github
+author: JennyHuang
+date: 2018-09-16
+output: github_document
 ---
 ### Load data
 We will use gapminder for this data exploration assginment
