@@ -1,0 +1,37 @@
+---
+title: "hw01_gapminder data exploration"
+output: 
+md_document:
+    variant: markdown_github
+---
+
+### Exploration of data frames
+
+```{r}
+library(gapminder)
+head(gapminder)
+tail(gapminder)
+str(gapminder)
+class(gapminder)
+ncol(gapminder)
+nrow(gapminder)
+summary(gapminder)
+```
+### Explore Variables
+```{r}
+Continent=filter(gapminder, continent=="Asia")
+Time=Continent$year
+pop=Continent$pop
+
+```
+
+### Visualizing data
+### Plot1 overview for each continent
+```{r}
+ggplot(data=gapminder)+geom_bar(mapping=aes(x=continent))
+```
+
+### Plot2 population over time in Asia countries
+```{r}
+ggplot(data=Continent, mapping=aes(x=Time, y=pop))+geom_point()
+```
