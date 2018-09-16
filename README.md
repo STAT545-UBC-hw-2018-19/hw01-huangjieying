@@ -1,5 +1,5 @@
 # STAT545 Homework 01 Repository
-Welcome to Jenny's homework repository for STAT545! Here I will introduce a little bit about me and some general information about STAT545
+Welcome to Jenny's homework repository for STAT545! Here I will introduce a little bit about me and some general information about STAT545!
 ## Biography :girl:
 My name is Jenny Huang and I am a first year PhD student from Landscape Ecology Lab in Faculty of Forestry. My research interests include the linkage between urban land cover and the status of urban stream. Through my PhD research, I hope to seek potential **green infrastructure** options that would benefit stormwater management under future urban expansion scenarios! Please feel free to visit my *[research profile](http://sarahgergel.net/lel/people/jenny-huang/)* or my *[Linkin profile](https://www.linkedin.com/in/jennyjyhuang/)* 
 
